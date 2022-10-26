@@ -1,0 +1,42 @@
+body{
+margin:0;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../assets/fondo-hogwarts.jpg");
+    background-repeat: no-repeat;
+
+    .contenedor{
+        position: absolute;
+        margin-left: 33%;
+        margin-top: 25%;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 400px;
+        height: 200px;
+        -webkit-box-shadow: -1px 0px 24px 7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 0px 24px 7px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 0px 24px 7px rgba(0, 0, 0, 0.75);
+        .contenedor-img{
+            margin-left: 25%;
+                img{
+                width: 200px;
+                margin-bottom: -10%;
+            }
+        }
+
+        a{
+            color: white;
+            margin-left: 37%;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        a:hover{
+            -webkit-box-shadow: -1px 0px 24px 7px rgba(255, 255, 255, 0.12);
+            -moz-box-shadow: -1px 0px 24px 7px rgba(255, 255, 255, 0.12);
+            box-shadow: -1px 0px 24px 7px rgba(255, 255, 255, 0.12);
+        }
+    }
+}
